@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+
+# Django local data
+backend/db.sqlite3
+backend/media/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+
+# Tooling artifacts
+.playwright-mcp/
+
+# Logs
+*.log
